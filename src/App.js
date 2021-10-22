@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import React from 'react';
+// import './i18n';
+// import i18n from "i18next";
+// import {useTranslation} from "react-i18next";
+
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+  // const changeLanguage = (lg) => {
+  //   i18n.changeLanguage(lg)
+  // }
+  // const { t } = useTranslation();
 
-export default App;
+
+  // const  count = 5;
+
+  return (
+    <>
+     {/* <h2>{t('Welcome to React')}</h2>
+     <button onClick={() => changeLanguage('en')}>en</button>
+      <button onClick={() => changeLanguage('ru')}>ru</button> */}
+    </>
+  )
+}
+export default App
